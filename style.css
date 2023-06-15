@@ -263,9 +263,13 @@ footer p a{
         font-size: 14px;
     }
 
+    .main--formation-list{
+        width: 100%;
+    }
+
     .main--formation-list a{
         padding: 15px;
-        width: 109%;
+        width: 100%;
         font-size: 13px;
     }
 
