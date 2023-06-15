@@ -268,7 +268,7 @@ footer p a{
     }
 
     .main--formation-list{
-        width: 100%;
+        width: inherit;
     }
 
     .main--formation-list a{
