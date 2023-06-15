@@ -172,7 +172,7 @@ main{
     backdrop-filter: blur(15.8px);
     -webkit-backdrop-filter: blur(15.8px);
     border: 1px solid rgba(255, 255, 255, 0.27);
-    width: 100%;
+    width: inherit;
     text-align: center;
     padding: 20px;
     text-decoration: none;
