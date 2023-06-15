@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    background-color: black;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background: black;
+}
+
+main{
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    padding: 30px;
+}
+
+.main--side-one{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: -50px;
+}
+
+.main--side-two{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main--side-three{
+    width: 30%;
+}
+
+.main--profile{
+    width: 100%;
+    text-align: center;
+}
+
+.main--profile img{
+    width: 50%;
+}
+.main--social-media{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.main--social-media i{
+    transition: ease-in-out 0.4s;
+}
+
+.main--social-media i:hover{
+    transform: scale(1.5);
+}
+
+
+.main--name{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.main--formation{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.main--projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main--projects-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.main--myName{
+    background-image: linear-gradient(to right, green, green, #154814);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+
+.main--devName{
+    color: gray;
+    font-size: 20px;
+}
+
+.main--projName{
+    font-size: 30px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, green, #154814, #154814);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.main--projects-list a{
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.8px);
+    -webkit-backdrop-filter: blur(15.8px);
+    border: 1px solid rgba(255, 255, 255, 0.27);
+    width: 150%;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: ease-in-out 0.3s;
+}
+
+.main--projects-list a:hover{
+   transform: scale(1.1);
+    background-color: green;
+    color: white;
+}
+
+.main--formName{
+    font-size: 30px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, green, #154814, #154814);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.main--formation-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.main--formation-list a{
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.8px);
+    -webkit-backdrop-filter: blur(15.8px);
+    border: 1px solid rgba(255, 255, 255, 0.27);
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: ease-in-out 0.3s;
+}
+hr{
+    display: none;
+}
+
+.main--formation-list a:hover{
+    transform: scale(1.1);
+    background-color: green;
+    color: white;
+}
+
+.main-languages{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main--insta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main--instaName{
+    font-size: 30px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, green, #154814, #154814);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+footer{
+    padding: 20px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+
+footer p a{
+    text-decoration: none;
+    color: green;
+
+}
+
+@media (max-width: 768px) {
+    main{
+        flex-direction: column;
+    }
+    .main--myName{
+        font-size: 30px;
+    }
+
+    .main--devName{
+        font-size: 15px;
+    }
+
+    .main--profile img{
+        width: 60%;
+    }
+
+    .main--side-one{
+        width: 100%;
+    }
+
+    .main--side-two{
+        width: 100%;
+    }
+
+    .main--side-three{
+        width: 200%;
+    }
+
+    .main--projects-list a {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .main--formation-list a{
+        padding: 15px;
+        width: 109%;
+        font-size: 13px;
+    }
+
+    footer{
+        margin-top: 310%;
+        font-size: 10px;
+    }
+
+    iframe{
+        width: 270px;
+        height: 490px;
+    }
+
+}
